@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="30dip"
+    android:paddingRight="30dip"
+    android:paddingBottom="30dip"
+    android:paddingTop="100dip"
+    android:background="@drawable/horizontal_bckgrnd"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:orientation="vertical" >
+        
+              <ImageButton
+                  android:id="@+id/btn_newgame"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@null"
+                  android:scaleType="center"
+                  android:src="@drawable/sel_btn_newgame" />
+
+      <ImageButton
+          android:id="@+id/btn_help"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@null"
+          android:scaleType="center"
+          android:src="@drawable/sel_btn_help" />
+        
+         <ImageButton
+             android:id="@+id/btn_exit"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical|center_horizontal"
+             android:background="@null"
+             android:paddingTop="5dip"
+             android:scaleType="center"
+             android:src="@drawable/sel_btn_exit" />
+        
+        <!-- <Button
+            android:id="@+id/exit"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Exit" />
+
+        <Button
+            android:id="@+id/help"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/exit"
+            android:layout_alignLeft="@+id/exit"
+            android:text="Help" />
+
+        <Button
+            android:id="@+id/enter"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/help"
+            android:layout_centerHorizontal="true"
+            android:text="Medals Table" />
+ -->
+    </LinearLayout>
+</LinearLayout>

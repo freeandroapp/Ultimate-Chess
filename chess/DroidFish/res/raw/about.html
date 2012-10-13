@@ -1,0 +1,154 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+
+<h2>About</h2>
+<p>
+  <i>Ultimate Chess</i> is a feature-rich graphical chess user interface, combined with
+  the very strong chess engine.
+</p>
+
+<h3>Features</h3>
+<ul>
+  <li>Opening book</li>
+  <li>Unlimited undo/redo</li>
+  <li>Copy/paste to/from clipboard</li>
+  <li>Analysis mode</li>
+  <li>Two player mode</li>
+  <li>Computer vs computer mode</li>
+  <li>Setup positions</li>
+  <li>Extensive PGN support</li>
+  <li>Adjustable playing strength</li>
+  <li>Third party UCI engines</li>
+  <li>Gaviota endgame tablebases</li>
+</ul>
+
+<h3>Hints</h3>
+<ul>
+  <li>
+    In game mode, long press chess board to activate copy/paste menu.
+  </li>
+  <li>
+    In edit board mode, long press chess board to activate edit menu.
+  </li>
+  <li>
+    Scroll left/right on the chess board to undo/redo moves.
+  </li>
+  <li>
+    If the game contains multiple variations, scroll up/down on the chess board
+    to go to the previous/next variation.
+  </li>
+  <li>
+    Long press mode/left/right buttons for additional commands.
+  </li>
+  <li>
+    When re-playing a game, change game mode to <i>Edit/re-play Game</i> to
+    be able to undo/redo single half moves.
+  </li>
+</ul>
+
+<h3>Opening books</h3>
+<p>
+  Ultimate Chess contains a small internal opening book. If you want to use
+  a larger book, you can configure Chess to use external <i>polyglot</i>
+  or <i>CTG</i> book files:
+</p>
+<ol>
+  <li>
+    Copy one or more polyglot book files to the <i>Ultimate Chess</i> directory on the SD card.
+    Polyglot books must have the file extension <i>.bin</i>.
+    <b>Note!</b> The Android file system is case sensitive, so the extension must be <i>.bin</i>, not <i>.Bin</i> or <i>.BIN</i>.
+  </li>
+  <li>
+    Copy one or more CTG book files to the <i>Ultimate Chess</i> directory.
+    A CTG book consists of three files with file extensions <i>.ctg</i>, <i>.ctb</i> and <i>.cto</i>.
+    You must copy all three files.
+  </li>
+  <li>
+    From the program menu, activate the <i>Select opening book</i> function.
+  </li>
+  <li>
+    Select the opening book file you want to use.
+  </li>
+</ol>
+
+<h3>PGN files</h3>
+<p>
+  Ultimate Chess can load games from PGN files. To use this feature:
+</p>
+<ol>
+  <li>
+    Copy one or more PGN files to the <i>Chess/pgn</i> directory on the SD card.
+  </li>
+  <li>
+    Long press the chess board and select <i>Load game from PGN file</i>.
+  </li>
+  <li>
+    Select the file, then the game within the file you want to load.
+  </li>
+</ol>
+<p>
+  To edit game headers such as player names, long press the move list and select
+  <i>Edit Headers</i>. To edit comments for a move, long press the move list and
+  select <i>Edit Comments</i>.
+</p>
+<p>
+  To save your edited game, long press the chess board and select <i>Save game to
+    PGN file</i>. Select the file to save to, then select the position in the file
+  where the new game will be saved.
+</p>
+<p>
+  <b>Note!</b> If the
+  <!-- <a href="http://play.google.com/store/apps/details?id=org.openintents.filemanager"> -->OI File Manager<!-- </a> -->
+  is installed, any directory can be used to load/save games.
+</p>
+<p>
+  To add computer analysis to the game tree, long press the analysis information when the computer is thinking and select <i>Add Analysis</i>.
+  The current principal variation is added as a variation in the game tree.
+</p>
+<p>
+  In analysis mode, it is possible to add null moves to the game tree. Be aware though
+  that null moves are not included in the PGN standard and may not work in other PGN
+  reading chess programs.
+</p>
+
+<h3>Scid files</h3>
+<p>
+  <!-- If you have <a href="http://play.google.com/store/apps/details?id=org.scid.android"> -->Scid on the go<!-- </a> --> installed, you can read Scid database files directly from Chess.
+  Long press the chess board and select <i>Load game from Scid file</i>.
+</p>
+
+<h3>UCI engines</h3>
+<p>
+  Ultimate Chess can use third party UCI engines. To use this feature:
+</p>
+<ol>
+  <li>
+    Copy one or more UCI engine binaries to the <i>Chess/uci</i> directory on the SD card.
+    <b>Note!</b> The binaries must be compiled for Android.
+  </li>
+  <li>
+    From the menu, choose <i>Select Chess Engine</i> and select the engine to use.
+  </li>
+</ol>
+
+<h3>Gaviota endgame tablebases</h3>
+<p>
+  To use
+  <!-- <a href="http://sites.google.com/site/gaviotachessengine/Home/endgame-tablebases-1"> -->Gaviota endgame tablebases<!-- </a> -->:
+</p>
+<ol>
+  <li>
+    Copy .gtb.cp4 files to the <i>Chess/gtb</i> directory on the SD card.
+  </li>
+  <li>
+    Use the <i>Endgame Tablebases</i> preferences screen to control how the tablebases are used.
+  </li>
+</ol>
+
+
+
+  </body>
+</html>

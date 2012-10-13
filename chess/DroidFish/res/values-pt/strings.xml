@@ -1,0 +1,524 @@
+<resources>
+    <string name="engine_threads_default">1</string>
+    <string name="moves_per_session_default">60</string>
+    <string name="time_control_default">120000</string>
+    <string name="time_increment_default">0</string>
+    <string name="font_size_default">12</string>
+    <string name="thinking_arrows_default">2</string>
+    <string name="scroll_sensitivity_default">2</string>
+    <string name="book_line_length_default">1000000</string>
+    <string name="cpu_warning">\
+    <b>Uso da CPU </b>\n\ 
+    Se você deixar de Xadrez executado em segundo plano e <i>GameMode </i> é definido como \ 
+    <i>Análise </i> ou <i>Computador Computador vs</i>,<i> ou se tempo pensando </i> \ 
+    é definido para um valor grande, ou se <i>Pondering </i>é habilitado, Xadrez pode usar \ 
+    um monte de energia da CPU.\n\ 
+    \n\  
+    Se você estiver funcionando com a bateria, é recomendável que você altere as configurações para \ 
+    economizar bateria, ou que você saia <i>Xadrez</i> usando o botão voltar quando \ 
+    que não estiver usando o programa.\
+    </string>
+    <string name="offer_draw">Oferecer Empate</string>
+    <string name="queen">Rainha </string>
+    <string name="rook">Torre</string>
+    <string name="bishop">Bispo</string>
+    <string name="knight">Cavalo</string>
+    <string name="promote_pawn_to">Promover peão?</string>
+    <string name="copy_game">Game Copy à prancheta</string>
+    <string name="copy_position">Posição copiar para área de transferência</string>
+    <string name="paste">Colar da área de transferência</string>
+    <string name="load_game">Carregar o jogo de arquivo PGN</string>
+    <string name="load_scid_game">Carregar o jogo de arquivo Scid</string>
+    <string name="save_game">Salve o jogo para PGN arquivo</string>
+    <string name="truncate_gametree">Truncar Tree Game</string>
+    <string name="move_var_up">Mova variação de até</string>
+    <string name="move_var_down">Mova Variação de Down</string>
+    <string name="add_null_move">Adicionar Mover Null</string>
+    <string name="tools_menu">Ferramentas</string>
+    <string name="load_save_menu">Load / Save Game</string>
+    <string name="goto_move">Movimento Goto</string>
+    <string name="edit_strength">Editar Força</string>
+    <string name="edit_randomization">Editar Randomização</string>
+    <string name="invalid_number_format">Formato de número inválido</string>
+    <string name="side_to_move">Lado a Mova</string>
+    <string name="clear_board">Conselho Limpar</string>
+    <string name="initial_position">Posição Inicial</string>
+    <string name="castling_flags">Bandeiras roque</string>
+    <string name="en_passant_file">En Passant Arquivo</string>
+    <string name="move_counters">Mova Contadores</string>
+    <string name="paste_position">Colar Posição</string>
+    <string name="edit_board">Editar Board</string>
+    <string name="select_side_to_move_first">Escolha um lado para mover primeiro</string>
+    <string name="white">Branco</string>
+    <string name="black">Preto</string>
+    <string name="white_king_castle">Branco rei do castelo</string>
+    <string name="white_queen_castle">Branco rainha do castelo</string>
+    <string name="black_king_castle">Negro, rei do castelo</string>
+    <string name="black_queen_castle">Preto rainha do castelo</string>
+    <string name="none">Nenhuma</string>
+    <string name="select_en_passant_file">Selecione En Passant Arquivo</string>
+    <string name="edit_move_counters">Editar Contadores Mover</string>
+    <string name="internal_book">Book&gt; &lt;Internal</string>
+    <string name="select_opening_book_file">Selecione o arquivo de livro de abertura</string>
+    <string name="select_chess_engine">Selecione motor de xadrez</string>
+    <string name="select_pgn_file">Abra o arquivo PGN</string>
+    <string name="select_pgn_file_save">Salvar para arquivo PGN</string>
+    <string name="pgn_load">Carregar</string>
+    <string name="pgn_save">salvar</string>
+    <string name="select_scid_file">Selecione o arquivo para abrir Scid</string>
+    <string name="select_pgn_game">Escolher jogo para abrir</string>
+    <string name="reading_pgn_file">Lendo arquivo PGN</string>
+    <string name="reading_scid_file">Lendo arquivo Scid</string>
+    <string name="new_file">&lt;Nova File&gt;</string>
+    <string name="please_wait">Agua</string>
+    <string name="no_pgn_files">Nenhum arquivo encontrado no diretório de Xadrez / pgn no cartão SD</string>
+    <string name="no_scid_files">Nenhum arquivo encontrado no diretório scid no cartão SD</string>
+    <string name="select_color_theme">Selecione Tema Cor</string>
+    <string name="select_game_mode">Selecione Modo de Jogo</string>
+    <string name="edit_replay_game">Editar / re-play do jogo</string>
+    <string name="analysis_mode">Modo de Análise</string>
+    <string name="play_white">Jogue Branco</string>
+    <string name="play_black">Jogue Preto</string>
+    <string name="two_players">Dois Jogadores</string>
+    <string name="comp_vs_comp">Computador vs Computador</string>
+    <string name="analysis">Análise</string>
+    <string name="edit_game">Editar Jogo</string>
+    <string name="edit_headers">Editar Cabeçalhos</string>
+    <string name="edit_comments">Edite Comentários</string>
+    <string name="go_back">Voltar</string>
+    <string name="go_forward">Avançar</string>
+    <string name="goto_start_game">Goto início do jogo</string>
+    <string name="goto_start_variation">Goto Início da Variação</string>
+    <string name="goto_prev_variation">Ir à variação anterior</string>
+    <string name="load_prev_game">Carregar Jogo Anterior</string>
+    <string name="goto_end_variation">Goto Fim de Variação</string>
+    <string name="goto_next_variation">Ir à variação próximo</string>
+    <string name="load_next_game">Coloque Próximo Jogo</string>
+    <string name="no_prev_game">No jogo anterior</string>
+    <string name="no_next_game">No próximo jogo</string>
+    <string name="select_action">Selecionar Ação</string>
+    <string name="flip_board">Inverter Board</string>
+    <string name="toggle_show_thinking">Alternar Mostrar Pensar</string>
+    <string name="toggle_book_hints">Alternar Dicas de livros</string>
+    <string name="toggle_pgn_variations">Variações de alternância</string>
+    <string name="toggle_pgn_comments">Comentários Alternar</string>
+    <string name="toggle_pgn_headers">Headers Toggle</string>
+    <string name="toggle_analysis">Análise do Mecanismo de alternância</string>
+    <string name="toggle_large_buttons">Alternar botões grandes</string>
+    <string name="cancel">Cancelar</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="move_number">Mova número:</string>
+    <string name="filename">Nome do arquivo:</string>
+    <string name="halfmove">Halfmove relógio:</string>
+    <string name="fullmove">Fullmove contador:</string>
+    <string name="filter_text">Localizar</string>
+    <string name="value_percent">Valor (%):</string>
+    <string name="header_event">eventos.</string>
+    <string name="header_site">Site:</string>
+    <string name="header_date">data</string>
+    <string name="header_round">assalto</string>
+    <string name="header_white">Branco</string>
+    <string name="header_black">Preto.</string>
+    <string name="comment_before">Antes:</string>
+    <string name="comment_move">Saia daí!</string>
+    <string name="comment_after">Depois:</string>
+    <string name="whites_move">Lance branco</string>
+    <string name="blacks_move">Movimento negro</string>
+    <string name="ponder">Pense bem.</string>
+    <string name="thinking">pensamento.</string>
+    <string name="analyzing">Analisando...</string>
+    <string name="white_mate">Game over, companheiros brancos!</string>
+    <string name="black_mate">Game over, companheiros negros!</string>
+    <string name="stalemate">Fim de jogo, empate por impasse!</string>
+    <string name="draw_rep">Fim de jogo, empate por repetição!</string>
+    <string name="draw_50">Game over, desenhe em 50 regra movimento!</string>
+    <string name="draw_no_mate">Fim de jogo, empate por impossibilidade de mate!</string>
+    <string name="draw_agree">Fim de jogo, empate por acordo!</string>
+    <string name="resign_white">Game over, branco renuncia!</string>
+    <string name="resign_black">Game over, preto renuncia!</string>
+    <string name="book">LIVRO</string>
+    <string name="invalid_move">Movimento inválido</string>
+    <string name="preferences">Preferências</string>
+    <string name="load_game_title">Editar Arquivo / Jogo de carga</string>
+    <string name="save_game_title">Editar Arquivo / Salvar Jogo</string>
+    <string name="save_game_hint">Selecione um jogo existente para controlar onde deseja salvar o jogo. Mantenha pressionado um jogo existente para excluí-lo.</string>
+    <string name="load_scid_game_title">Carregar Jogo Scid</string>
+    <string name="cpu_warning_title">Aviso CPU</string>
+    <string name="failed_to_read_pgn_data">Falha ao ler dados pgn</string>
+    <string name="variation">var</string>
+    <string name="add_analysis">Adicionar Análise</string>
+    <string name="fewer_variations">Variações menos</string>
+    <string name="more_variations">Mais Variações</string>
+    <string name="hide_statistics">Ocultar estatísticas</string>
+    <string name="show_statistics">Mostrar estatisticas</string>
+    <string name="heavy_cpu_usage">Uso pesado de CPU</string>
+    <string name="background_processing">Processamento em segundo plano</string>
+    <string name="lot_cpu_power">Xadrez está usando um monte de energia da CPU</string>
+    <string name="delete_game">Excluir jogo?</string>
+    <string name="delete_file">Apagar arquivo</string>
+    <string name="delete_file_question">Excluir arquivo:</string>
+    <string name="delete_named_file">Excluindo arquivo: %s</string>
+    <string name="game_saved">Jogo salvo</string>
+    <string name="failed_to_save_game">Falha ao salvar o jogo</string>
+    <string name="failed_to_delete_game">Falha ao excluir jogo</string>
+    <string name="file_too_large">Arquivo muito grande</string>
+    <string name="not_a_pgn_file">Não é um arquivo PGN</string>
+    <string name="save_game_question">Salvar Jogo.</string>
+    <string name="before_selected">Antes Selecionado</string>
+    <string name="after_selected">Depois de selecionados</string>
+    <string name="replace_selected">Substituir selecionada</string>
+    <string name="engine">Motor</string>
+    <string name="engine_error">Mecanismo de erro</string>
+    <string name="stockfish_engine">difícil mecanismo</string>
+    <string name="cuckoochess_engine">fácil mecanismo</string>
+    <string name="failed_to_start_engine">Falha ao iniciar o motor</string>
+    <string name="engine_terminated">Motor encerrado</string>
+    <string name="uci_protocol_error">UCI erro de protocolo</string>
+    <string name="start_new_game">Iniciar novo jogo?</string>
+    <string name="strength_cuckoo_hint">Use o motor EasyChess para a força ainda menor.</string>
+    <string name="err_too_few_spaces">Muito poucos espaços</string>
+    <string name="err_invalid_piece">Pedaço inválido</string>
+    <string name="err_invalid_side">Lado inválido</string>
+    <string name="err_invalid_castling_flags">Inválidos bandeiras roque</string>
+    <string name="err_invalid_en_passant_square">Inválido en passant quadrado</string>
+    <string name="err_white_num_kings">Branco deve ter exatamente um rei</string>
+    <string name="err_black_num_kings">Preto deve ter exatamente um rei</string>
+    <string name="err_king_capture_possible">Rei capturar possível</string>
+    <string name="err_too_many_rows">Muitas linhas</string>
+    <string name="err_too_many_columns">Muitas colunas</string>
+    <string name="err_pawn_on_first_last_rank">Peão em primeiro / último posto</string>
+    <string name="err_too_many_white_pieces">Muitas peças brancas</string>
+    <string name="err_too_many_black_pieces">Muitas peças pretas</string>
+    <string name="option_new_game">Novo jogo</string>
+    <string name="option_file">Atribuído</string>
+    <string name="option_resign_game">Renuncia jogo</string>
+    <string name="option_edit_board">Editar Board</string>
+    <string name="option_settings">Configurações</string>
+    <string name="option_goto_move">Mover Goto</string>
+    <string name="option_force_computer_move">Mover Computer Força</string>
+    <string name="option_draw">Reclame / Oferta / Aceitar Desenhar</string>
+    <string name="option_select_book">Selecione Catálogo de Abertura</string>
+    <string name="option_select_engine">Selecione motor de xadrez</string>
+    <string name="option_color_theme">Definir Tema Cor</string>
+    <string name="option_about">Sobre Ajuda /</string>
+    <string name="prefs_playing_options">Jogando Opções</string>
+    <string name="prefs_playerName_title">Nome do jogador</string>
+    <string name="prefs_playerName_summary">Nome padrão jogador em novos jogos</string>
+    <string name="prefs_autoSwapSides_title">Board Flip: Auto</string>
+    <string name="prefs_autoSwapSides_summary">Use lado para passar para virar placa automaticamente</string>
+    <string name="prefs_playerNameFlip_title">Board Flip: Jogador</string>
+    <string name="prefs_playerNameFlip_summary">Use Nome do Jogador para virar placa automaticamente</string>
+    <string name="prefs_engine_settings">Configurações de motor</string>
+    <string name="prefs_strength_title">Resistência</string>
+    <string name="prefs_strength_summary">Somente suportado pelos motores internos</string>
+    <string name="prefs_ponderMode_title">Ponderando</string>
+    <string name="prefs_ponderMode_summary">Deixe que o motor acho que enquanto se espera para o movimento do adversário. Apoiado pela maioria dos motores.</string>
+    <string name="prefs_threads_title">Tópicos</string>
+    <string name="prefs_threads_summary">Número de tópicos do motor (núcleos de CPU) para usar. Não suportado por todos os motores.</string>
+    <string name="prefs_time_control">Controle do tempo</string>
+    <string name="prefs_movesPerSession_title">Movimento</string>
+    <string name="prefs_movesPerSession_summary">Número de movimentos entre os controles de tempo</string>
+    <string name="prefs_timeControl_title">Tempo</string>
+    <string name="prefs_timeControl_summary">Tempo de reflexão máxima entre controles de tempo</string>
+    <string name="prefs_timeIncrement_title">de incremento.</string>
+    <string name="prefs_timeIncrement_summary">Tempo extra para pensar cada movimento concluída</string>
+    <string name="prefs_hints">Dicas</string>
+    <string name="prefs_showThinking_title">Mostrar Pensamento Computador</string>
+    <string name="prefs_showThinking_summary">Exibir informações algoritmo de computador durante a busca</string>
+    <string name="prefs_whiteBasedScores_title">Branco baseados pontuações</string>
+    <string name="prefs_whiteBasedScores_summary">Pontuações de análise positivos são bons para branco</string>
+    <string name="prefs_bookHints_title">Mostrar Dicas de livros</string>
+    <string name="prefs_bookHints_summary">Mostrar dicas de abertura do livro de movimentação para o jogador humano</string>
+    <string name="prefs_thinkingArrows_title">Use as setas</string>
+    <string name="prefs_thinkingArrows_summary">Use as setas para exibir movimentos em tabuleiro de xadrez</string>
+    <string name="prefs_user_interface">Interface do usuário</string>
+    <string name="prefs_animateMoves_title">Animar Moves</string>
+    <string name="prefs_animateMoves_summary">Animar movimentos peça</string>
+    <string name="prefs_oneTouchMoves_title">Um toque Moves</string>
+    <string name="prefs_oneTouchMoves_summary">Tocando um quadrado que corresponde a uma única jogada faz com que a jogada imediatamente</string>
+    <string name="prefs_soundEnabled_title">Habilitar Sons</string>
+    <string name="prefs_soundEnabled_summary">Tocar um som quando o computador faz uma jogada</string>
+    <string name="prefs_vibrateEnabled_title">Habilitar Vibração</string>
+    <string name="prefs_vibrateEnabled_summary">Vibrar quando o computador faz uma jogada</string>
+    <string name="prefs_fullScreenMode_title">Modo tela cheia</string>
+    <string name="prefs_fullScreenMode_summary">Modo de tela cheia esconde a barra de status</string>
+    <string name="prefs_wakeLock_title">Desativar o Tempo</string>
+    <string name="prefs_drawSquareLabels_title">Etiquetas quadrados</string>
+    <string name="prefs_drawSquareLabels_summary">Exibir rótulos quadrados: um-h e 1-8</string>
+    <string name="prefs_scrollSensitivity_title">Velocidade de rolagem</string>
+    <string name="prefs_scrollSensitivity_summary">A velocidade de rolagem para o jogo de navegação</string>
+    <string name="prefs_invertScrollDirection_title">Inverter direção de rolagem</string>
+    <string name="prefs_invertScrollDirection_summary">Ativá-la se você acha que movimentos de rolagem na direção errada</string>
+    <string name="prefs_leftHanded_title">Canhoto modo</string>
+    <string name="prefs_leftHanded_summary">Controles do lado esquerdo no modo paisagem</string>
+    <string name="prefs_fontSize_title">Tamanho do texto</string>
+    <string name="prefs_fontSize_summary">Tamanho da fonte para a lista de movimento e as informações do jogo</string>
+    <string name="prefs_largeButtons_title">Botões grandes</string>
+    <string name="prefs_largeButtons_summary">Use os botões grandes para navegação e configuração do modo de jogo</string>
+    <string name="prefs_buttonSettings_title">Configurar botões</string>
+    <string name="prefs_buttonSettings_summary">Configurar tamanho do botão e ações de botão.</string>
+    <string name="prefs_button_action_0_title">Acção principal</string>
+    <string name="prefs_button_action_1_title">Ação Menu 1</string>
+    <string name="prefs_button_action_2_title">Ação Menu 2</string>
+    <string name="prefs_button_action_3_title">Ação Menu 3</string>
+    <string name="prefs_button_action_4_title">Menu de Ação 4</string>
+    <string name="prefs_button_action_5_title">Ação Menu 5</string>
+    <string name="prefs_button_action_6_title">Ação Menu 6</string>
+    <string name="prefs_custom_button_1">Personalizar Botão 1</string>
+    <string name="prefs_custom_button_2">Personalizar Botão 2</string>
+    <string name="prefs_custom_button_3">Personalizar Botão 3</string>
+    <string name="prefs_colors_title">Configuração da cor</string>
+    <string name="prefs_colors_summary">Alterar cores individuais</string>
+    <string name="prefs_chess_board">Chess Board</string>
+    <string name="prefs_color_brightSquare_title">Praças brilhantes</string>
+    <string name="prefs_color_darkSquare_title">Praças escuras</string>
+    <string name="prefs_color_selectedSquare_title">Praça selecionados</string>
+    <string name="prefs_color_cursorSquare_title">Cursor Trackball</string>
+    <string name="prefs_color_brightPiece_title">Peças brancas</string>
+    <string name="prefs_color_darkPiece_title">Peças pretas</string>
+    <string name="prefs_color_arrow0_title">Seta 1</string>
+    <string name="prefs_color_arrow1_title">Seta 2</string>
+    <string name="prefs_color_arrow2_title">Seta 3</string>
+    <string name="prefs_color_arrow3_title">Seta 4</string>
+    <string name="prefs_color_arrow4_title">Seta 5</string>
+    <string name="prefs_color_arrow5_title">Seta 6</string>
+    <string name="prefs_color_squareLabel_title">Etiquetas quadrados</string>
+    <string name="prefs_color_decoration_title">Dicas Tablebase</string>
+    <string name="prefs_move_list">Mova Lista</string>
+    <string name="prefs_color_currentMove_title">Mover atual</string>
+    <string name="prefs_color_pgnComment_title">Comentários</string>
+    <string name="prefs_other">Outro</string>
+    <string name="prefs_bookSettings_title">Abertura das configurações de livros</string>
+    <string name="prefs_bookSettings_summary">Configurações para abrir utilização livro</string>
+    <string name="prefs_bookMaxLength_title">Comprimento livro</string>
+    <string name="prefs_bookMaxLength_summary">Comprimento máximo da linha livro</string>
+    <string name="prefs_bookPreferMainLines_title">Prefira linhas principais</string>
+    <string name="prefs_bookPreferMainLines_summary">Prefira movimentos livro marcados como movimentos principais</string>
+    <string name="prefs_bookTournamentMode_title">Modo de torneio</string>
+    <string name="prefs_bookTournamentMode_summary">Ignorar movimentos marcados como não para o torneio</string>
+    <string name="prefs_bookRandom_title">Randomização livro</string>
+    <string name="prefs_bookFile_title">Nome do livro</string>
+    <string name="prefs_bookFile_summary">Poliglota ou CTG arquivo do livro no diretório de Xadrez em SD Card</string>
+    <string name="prefs_pgnSettings_title">Configurações PGN</string>
+    <string name="prefs_pgnSettings_summary">Definições de importação e exportação de notação jogo portátil (PGN) dados</string>
+    <string name="prefs_pgn_viewer">PGN viewer</string>
+    <string name="prefs_viewVariations_title">Variações</string>
+    <string name="prefs_viewVariations_summary">Incluir não mainline movimentos</string>
+    <string name="prefs_viewComments_title">Comentários</string>
+    <string name="prefs_viewComments_summary">Incluir comentários de usuários escrito</string>
+    <string name="prefs_viewNAG_title">Comentários:</string>
+    <string name="prefs_viewNAG_summary">Incluir glifos anotação numéricos (NAGs), como! e?</string>
+    <string name="prefs_viewHeaders_title">Cabeçalhos</string>
+    <string name="prefs_viewHeaders_summary">Mostrar linhas de cabeçalho PGN</string>
+    <string name="prefs_pgn_import">Importação PGN</string>
+    <string name="prefs_importVariations_title">Variações</string>
+    <string name="prefs_importVariations_summary">Incluir não mainline movimentos</string>
+    <string name="prefs_importComments_title">Comentários</string>
+    <string name="prefs_importComments_summary">Incluir comentários de usuários escrito</string>
+    <string name="prefs_importNAG_title">Comentários:</string>
+    <string name="prefs_importNAG_summary">Incluir glifos anotação numéricos (NAGs), como! e?</string>
+    <string name="prefs_pgn_export">PGN exportação</string>
+    <string name="prefs_exportVariations_title">Variações</string>
+    <string name="prefs_exportVariations_summary">Incluir não mainline movimentos</string>
+    <string name="prefs_exportComments_title">Comentários</string>
+    <string name="prefs_exportComments_summary">Incluir comentários de usuários escrito</string>
+    <string name="prefs_exportNAG_title">Comentários:</string>
+    <string name="prefs_exportNAG_summary">Incluir glifos anotação numéricos (NAGs), como! e?</string>
+    <string name="prefs_exportPlayerAction_title">Ações dos jogadores</string>
+    <string name="prefs_exportPlayerAction_summary">Incluir informações sobre desenhar e demitir ações</string>
+    <string name="prefs_exportTime_title">Relógio</string>
+    <string name="prefs_exportTime_summary">Incluir informações de tempo para cada movimento</string>
+    <string name="prefs_egtbSettings_title">Tablebases Endgame</string>
+    <string name="prefs_tbHints_title">Mostrar dicas</string>
+    <string name="prefs_tbHints_summary">Ao tocar uma peça, mostrar o valor tablebase para todos os movimentos possíveis por esse pedaço</string>
+    <string name="prefs_tbHintsEdit_title">Edite Dicas Board</string>
+    <string name="prefs_tbHintsEdit_summary">Ao tocar uma peça no modo de edição bordo, mostrar o valor tablebase para todas as posições possíveis alternativas de que peça</string>
+    <string name="prefs_tbRootProbe_title">Probe em Root</string>
+    <string name="prefs_tbRootProbe_summary">Filtre não ótimas jogadas antes de iniciar a pesquisa</string>
+    <string name="prefs_tbEngineProbe_title">Mecanismo de Sondagem</string>
+    <string name="prefs_tbEngineProbe_summary">Habilitar tablebase sondagem no motor, quando suportados. Toma efeito motor da próxima vez é iniciado</string>
+    <string name="prefs_gtbPath_title">Diretório GTB</string>
+    <string name="prefs_gtbPath_summary">Diretório onde tablebases Gaviota são instalados. Deixe em branco para usar o diretório padrão</string>
+  
+    <string name="buttonDesc_mode">Botão Modo</string>
+    <string name="buttonDesc_back">Botão para trás</string>
+    <string name="buttonDesc_forward">Botão Avançar</string>
+    <string-array name="engine_threads_texts">
+        <item>Automático</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="engine_threads_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="moves_per_session_texts">
+        <item>Jogo todo</item>
+        <item>1 movimento</item>
+        <item>10 movimentos</item>
+        <item>20 movimentos</item>
+        <item>30 movimentos</item>
+        <item>40 movimentos</item>
+        <item>50 lances</item>
+        <item>60 movimentos</item>
+    </string-array>
+    <string-array name="moves_per_session_values">
+        <item>0</item>
+        <item>1</item>
+        <item>10</item>
+        <item>20 </item>
+        <item>30   </item>
+        <item>40 </item>
+        <item>50</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="time_control_texts">
+        <item>15 segundos</item>
+        <item>30 segundos</item>
+        <item>1 minuto</item>
+        <item>2 minutos</item>
+        <item>3 minutos</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>45 minutos</item>
+        <item>60 minutos</item>
+        <item>90 minutos</item>
+        <item>120 minutos</item>
+    </string-array>
+    <string-array name="time_control_values">
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>180000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>1800000</item>
+        <item>2700000</item>
+        <item>3600000</item>
+        <item>5400000</item>
+        <item>7200000</item>
+    </string-array>
+    <string-array name="time_increment_texts">
+        <item>0s</item>
+        <item>1s</item>
+        <item>2s</item>
+        <item>3s</item>
+        <item>4s</item>
+        <item>5s</item>
+        <item>10s</item>
+        <item>12s</item>
+        <item>15s</item>
+        <item>30s</item>
+        <item>60s</item>
+    </string-array>
+    <string-array name="time_increment_values">
+        <item>0</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>12000</item>
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+    </string-array>
+    <string-array name="font_size_texts">
+        <item>PEQUENO</item>
+        <item>Médio</item>
+        <item>Grande</item>
+        <item>Aumentar</item>
+    </string-array>
+    <string-array name="font_size_values">
+        <item>10</item>
+        <item>12</item>
+        <item>16</item>
+        <item>21</item>
+    </string-array>
+    <string-array name="thinking_arrows_texts">
+        <item>Não há setas</item>
+        <item>Max 1 Seta</item>
+        <item>Max 2 Setas</item>
+        <item>Max 3 Setas</item>
+        <item>Max 4 Setas</item>
+        <item>Max 5 Setas</item>
+        <item>Max 6 Setas</item>
+    </string-array>
+    <string-array name="thinking_arrows_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="scroll_sensitivity_texts">
+        <item>DESLIGAR</item>
+        <item>O mais lento</item>
+        <item>Devagar</item>
+        <item>Normal</item>
+        <item>Rápido</item>
+        <item>Mais rápida</item>
+    </string-array>
+    <string-array name="scroll_sensitivity_values">
+        <item>0</item>
+        <item>6</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0.5</item>
+    </string-array>
+    <string-array name="book_line_length_texts">
+        <item>5 movimentos</item>
+        <item>10 movimentos</item>
+        <item>15 movimentos</item>
+        <item>20 movimentos</item>
+        <item>30 movimentos</item>
+        <item>50 movimentos</item>
+        <item>Ilimitado</item>
+    </string-array>
+        <string-array name="book_line_length_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>50</item>
+        <item>1000000</item>
+    </string-array>
+    <string-array name="button_action_texts">
+        <item>Desactivado</item>
+        <item>@string/flip_board</item>
+        <item>@string/toggle_analysis</item>
+        <item>@string/toggle_show_thinking</item>
+        <item>@string/toggle_book_hints</item>
+        <item>@string/toggle_pgn_variations</item>
+        <item>@string/toggle_pgn_comments</item>
+        <item>@string/toggle_pgn_headers</item>
+        <item>@string/toggle_large_buttons</item>
+    </string-array>
+    <string-array name="button_action_values">
+        <item/>
+        <item>Flipboard</item>
+        <item>toggleAnalysis</item>
+        <item>showThinking</item>
+        <item>bookHints</item>
+        <item>viewVariations</item>
+        <item>viewComments</item>
+        <item>viewHeaders</item>
+        <item>largeButtons</item>
+    </string-array>
+    <string name="titleDonate">doar</string>
+</resources>

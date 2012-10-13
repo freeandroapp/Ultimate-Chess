@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:background="@drawable/backgrnd"
+    android:layout_height="fill_parent">
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:id="@+id/white_clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="60dp"
+            android:shadowColor="#00ccff"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:textColor="#fff"
+            android:textSize="15dip"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/black_clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/white_clock"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="5dp"
+            android:shadowColor="#00ccff"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:textColor="#fff"
+            android:textSize="15dip"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <ImageButton
+            android:id="@+id/undoButton"
+            android:layout_width="45dp"
+            android:layout_height="32dp"
+            android:layout_alignLeft="@+id/black_clock"
+            android:layout_below="@+id/black_clock"
+            android:contentDescription="@string/buttonDesc_back"
+            android:src="@drawable/undo" />
+
+        <ImageButton
+            android:id="@+id/redoButton"
+            android:layout_width="45dp"
+            android:layout_height="32dp"
+            android:layout_below="@+id/black_clock"
+            android:layout_toRightOf="@+id/undoButton"
+            android:contentDescription="@string/buttonDesc_forward"
+            android:src="@drawable/redo" />
+
+        <ImageButton
+            android:id="@+id/custom2Button"
+            android:layout_width="45dp"
+            android:layout_height="32dp"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@string/buttonDesc_custom2" />
+
+        <ImageButton
+            android:id="@+id/modeButton"
+            android:layout_width="45dp"
+            android:layout_height="32dp"
+            android:layout_alignLeft="@+id/redoButton"
+            android:layout_below="@+id/redoButton"
+            android:contentDescription="@string/buttonDesc_mode"
+            android:src="@drawable/mode" />
+
+        <ImageButton
+            android:id="@+id/custom1Button"
+            android:layout_width="45dp"
+            android:layout_height="32dp"
+            android:layout_alignTop="@+id/modeButton"
+            android:layout_toLeftOf="@+id/modeButton"
+            android:contentDescription="@string/buttonDesc_custom1" />
+
+        <ImageButton
+            android:id="@+id/custom3Button"
+            android:layout_width="45dp"
+            android:layout_height="32dp"
+            android:layout_alignLeft="@+id/modeButton"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@string/buttonDesc_custom3" />
+
+    </RelativeLayout>
+
+	<view
+		class="com.chess.android.appdevthree.ChessBoard"
+    	android:id="@+id/chessboard"
+	    android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"/>
+	<!-- <LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="vertical"
+	    android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+        android:paddingLeft="1dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/custom3Button"
+            android:contentDescription="@string/buttonDesc_custom3"
+            android:layout_width="36dp"
+            android:layout_height="32dp">
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/custom2Button"
+            android:contentDescription="@string/buttonDesc_custom2"
+            android:layout_width="36dp"
+            android:layout_height="32dp">
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/custom1Button"
+            android:contentDescription="@string/buttonDesc_custom1"
+            android:layout_width="36dp"
+            android:layout_height="32dp">
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/modeButton"
+            android:contentDescription="@string/buttonDesc_mode"
+            android:layout_width="36dp"
+            android:layout_height="32dp"
+             android:src="@drawable/mode">
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/undoButton"
+            android:contentDescription="@string/buttonDesc_back"
+            android:layout_width="36dp"
+            android:layout_height="32dp"
+             android:src="@drawable/undo">
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/redoButton"
+            android:contentDescription="@string/buttonDesc_forward"
+            android:layout_width="36dp"
+            android:layout_height="32dp"
+             android:src="@drawable/redo">
+        </ImageButton>
+	</LinearLayout>
+	<TextView
+	    android:id="@+id/status"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:includeFontPadding="true"
+	    android:typeface="monospace"
+	    android:textSize="10dip"/> -->
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         android:paddingLeft="10dp"
+          android:paddingRight="10dp"
+          android:paddingBottom="10dp">
+       <view
+            android:id="@+id/scrollViewBot"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentBottom="true"
+            class="com.chess.android.appdevthree.MyScrollView" >
+
+          <TextView
+                android:id="@+id/thinking"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="true"
+                android:background="#fff"
+                 android:textColor="#000"
+                android:textSize="10dip"
+                android:typeface="monospace" />
+        </view>
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="130dp"
+            android:layout_height="170dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/scrollview"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/moveList"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="true"
+                android:textColor="#000"
+                android:textSize="10dip"
+                android:typeface="monospace" />
+        </ScrollView>
+
+      
+    </RelativeLayout>
+	</LinearLayout>
+

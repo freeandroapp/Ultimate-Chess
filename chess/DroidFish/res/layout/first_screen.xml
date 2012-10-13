@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/vertical_bckgrnd"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="30dip"
+    android:paddingLeft="30dip"
+    android:paddingRight="30dip"
+    android:paddingTop="150dip" >
+
+        <ImageButton
+            android:id="@+id/btn_newgame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:background="@null"
+            android:scaleType="center"
+            android:src="@drawable/sel_btn_newgame" />
+
+        <ImageButton
+            android:id="@+id/btn_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_below="@id/btn_newgame"
+            android:scaleType="center"
+            android:src="@drawable/sel_btn_help" />
+
+        <ImageButton
+            android:id="@+id/btn_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@null"
+            android:layout_below="@id/btn_help"
+            android:scaleType="center"
+            android:src="@drawable/sel_btn_exit" />
+   
+
+</RelativeLayout>

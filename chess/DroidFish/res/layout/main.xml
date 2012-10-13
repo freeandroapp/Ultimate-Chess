@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="@drawable/backgrnd"
+    android:layout_height="fill_parent">
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="30dp"
+	    android:gravity="center"
+	    android:orientation="horizontal"
+	    android:paddingTop="1dp" >
+
+	    <ImageButton
+	        android:id="@+id/custom2Button"
+	        android:layout_width="45dp"
+	        android:layout_height="32dp"
+	        android:contentDescription="@string/buttonDesc_custom2" />
+
+	    <ImageButton
+	        android:id="@+id/custom3Button"
+	        android:layout_width="45dp"
+	        android:layout_height="32dp"
+	        android:contentDescription="@string/buttonDesc_custom3" />
+
+	    <ImageButton
+	        android:id="@+id/custom1Button"
+	        android:layout_width="45dp"
+	        android:layout_height="32dp"
+	        android:contentDescription="@string/buttonDesc_custom1" />
+        
+          <ImageButton
+            android:id="@+id/modeButton"
+            android:layout_width="45dp"
+            android:layout_height="32dp"
+           android:contentDescription="@string/buttonDesc_mode"
+            android:src="@drawable/mode" />
+         
+         
+        <ImageButton
+            android:id="@+id/undoButton"
+            android:layout_width="45dp"
+            android:layout_height="32dp"
+          android:contentDescription="@string/buttonDesc_back"
+            android:src="@drawable/undo" />
+
+        <ImageButton
+            android:id="@+id/redoButton"
+            android:layout_width="45dp"
+            android:layout_height="32dp"
+            android:contentDescription="@string/buttonDesc_forward"
+            android:src="@drawable/redo" />
+
+       <!--  <ImageButton
+            android:id="@+id/modeButton"
+            android:layout_width="36dp"
+            android:layout_height="32dp"
+            android:layout_below="@+id/black_clock"
+            android:layout_toRightOf="@+id/redoButton"
+            android:contentDescription="@string/buttonDesc_mode"
+            android:src="@drawable/mode" /> -->
+
+	 	</LinearLayout>
+	
+	<view
+		class="com.chess.android.appdevthree.ChessBoard"
+	    android:id="@+id/chessboard"
+    	android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"/>
+
+ <!--    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingTop="1dp" > -->
+
+		
+		<!-- <TextView
+		    android:id="@+id/status"
+		    android:layout_width="0dp"
+		    android:layout_weight="1"
+		    android:layout_height="wrap_content"
+		    android:includeFontPadding="true"
+		       android:textSize="15dip"
+    	        android:textColor="#fff"
+    	        android:typeface="serif" /> -->
+
+	<!-- 	<TextView
+    		android:id="@+id/white_clock"
+	    	android:layout_width="50dp" 
+	    	android:layout_height="wrap_content" 
+			android:layout_weight="1"
+		    android:includeFontPadding="true"
+    		android:typeface="monospace"
+		    android:textSize="10dip"/>
+		
+		
+		<TextView
+    		android:id="@+id/black_clock"
+	    	android:layout_width="50dp" 
+	    	android:layout_height="wrap_content" 
+			android:layout_weight="1"
+		    android:includeFontPadding="true"
+    		android:typeface="monospace"
+		    android:textSize="10dip"/> -->
+	<!-- 	<TextView
+	    android:id="@+id/white_clock"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+	</TextView> -->
+<!-- 	</LinearLayout> -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp" >
+
+        <view
+            android:id="@+id/scrollViewBot"
+           android:layout_width="170dp"
+            android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+            class="com.chess.android.appdevthree.MyScrollView" >
+
+          <TextView
+                android:id="@+id/thinking"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="true"
+                android:background="#fff"
+                 android:textColor="#000"
+                android:textSize="10dip"
+                android:typeface="monospace" />
+        </view>
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/scrollview"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/moveList"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="true"
+                android:textColor="#000"
+                android:textSize="10dp"
+                android:typeface="monospace" />
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/white_clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="2dp"
+             android:layout_marginRight="10dp"
+            android:shadowColor="#00ccff"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:textColor="#fff"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        
+       <!--  <ImageButton
+            android:id="@+id/custom1Button"
+            android:layout_width="36dp"
+            android:layout_height="32dp"
+            android:layout_below="@+id/black_clock"
+            android:layout_toRightOf="@+id/modeButton"
+            android:contentDescription="@string/buttonDesc_custom1" />
+ -->
+
+        <TextView
+            android:id="@+id/black_clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/white_clock"
+            android:layout_alignBottom="@+id/white_clock"
+            android:layout_toRightOf="@+id/white_clock"
+            android:shadowColor="#00ccff"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:textColor="#fff"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+    </RelativeLayout>
+
+</LinearLayout>

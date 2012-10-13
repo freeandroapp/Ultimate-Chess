@@ -1,0 +1,526 @@
+<resources>
+    <string name="engine_threads_default">1</string>
+    <string name="moves_per_session_default">60</string>
+    <string name="time_control_default">120000</string>
+    <string name="time_increment_default">0</string>
+    <string name="font_size_default">12</string>
+    <string name="thinking_arrows_default">2</string>
+    <string name="scroll_sensitivity_default">2</string>
+    <string name="book_line_length_default">1000000</string>
+    <string name="cpu_warning">\ 
+    <b>ダウンロードCPU使用率</b>\n\
+           は、バックグラウンドで実行されているチェスを残すと<i>ゲームモード</i>\
+    <i>解析に設定されている</i>または<i>コンピュータ対コンピュータの場合、</i>または <i>思考時間であれば</i>\
+    <i>大きな値に設定されている、または</i>,は有効になっている場合は、チェスが使用できる\ 
+    CPUパワーの多くを熟考がします\n\ 
+    \n\
+         あなたがバッテリ電源で実行されている場合、それはあなたが\節約バッテリ電源に設定を変更すること、または終了することをお勧めします<i>チェス</i>\
+         は、積極的にプログラムを使用していないときに[戻る]ボタンを使用します。\
+    </string>
+    <string name="offer_draw">描画を提供する</string>
+    <string name="queen">クイーン。</string>
+    <string name="rook">ルーク</string>
+    <string name="bishop">ビショップ</string>
+    <string name="knight">ナイト</string>
+    <string name="promote_pawn_to">にポーンを促進する？</string>
+    <string name="copy_game">クリップボードにゲームをコピーします。</string>
+    <string name="copy_position">クリップボードにポジションをコピー</string>
+    <string name="paste">クリップボードから貼り付ける</string>
+    <string name="load_game">PGNファイルからゲームをロードします。</string>
+    <string name="load_scid_game">Scidのファイルからゲームをロードする</string>
+    <string name="save_game">ファイルをPGNにゲームを保存</string>
+    <string name="truncate_gametree">ゲーム木を切り捨てる</string>
+    <string name="move_var_up">バリエーションを上に移動</string>
+    <string name="move_var_down">バリエーションを下に移動</string>
+    <string name="add_null_move">Nullの移動を追加します。</string>
+    <string name="tools_menu">ツール</string>
+    <string name="load_save_menu">セーブ/ロードゲーム</string>
+    <string name="goto_move">後藤の動き</string>
+    <string name="edit_strength">強さを編集します。</string>
+    <string name="edit_randomization">ランダムを編集</string>
+    <string name="invalid_number_format">無効な番号形式</string>
+    <string name="side_to_move">移動する側</string>
+    <string name="clear_board">クリアボード</string>
+    <string name="initial_position">初期位置</string>
+    <string name="castling_flags">キャスフラグ</string>
+    <string name="en_passant_file">ついでにファイル</string>
+    <string name="move_counters">カウンタを移動</string>
+    <string name="paste_position">貼り付け位置</string>
+    <string name="edit_board">編集委員会</string>
+    <string name="select_side_to_move_first">最初に移動する側を選択します。</string>
+    <string name="white">白</string>
+    <string name="black">黒</string>
+    <string name="white_king_castle">白の王の城</string>
+    <string name="white_queen_castle">白の女王の城</string>
+    <string name="black_king_castle">黒王の城</string>
+    <string name="black_queen_castle">黒の女王の城</string>
+    <string name="none">なし</string>
+    <string name="select_en_passant_file">ついでにファイルを選択します。</string>
+    <string name="edit_move_counters">移動カウンタを編集</string>
+    <string name="internal_book">Internal Book</string>
+    <string name="select_opening_book_file">開くブックファイルを選択します。</string>
+    <string name="select_chess_engine">チェスエンジンを選択する</string>
+    <string name="select_pgn_file">PGNファイルを開きます。</string>
+    <string name="select_pgn_file_save">ファイルをPGNに保存</string>
+    <string name="pgn_load">読み込む</string>
+    <string name="pgn_save">保存</string>
+    <string name="select_scid_file">開くためにScidのファイルを選択</string>
+    <string name="select_pgn_game">開くためにゲームを選択</string>
+    <string name="reading_pgn_file">PGNファイルの読み込み</string>
+    <string name="reading_scid_file">Scidのファイルを読み込む</string>
+    <string name="new_file">新規ファイル:</string>
+    <string name="please_wait">しばらくお待ちください ...</string>
+    <string name="no_pgn_files">SDカード上のディレクトリチェス/ PGNでは見つかりませんファイルはありません</string>
+    <string name="no_scid_files">SDカード上のディレクトリSCIDで見つかりませんファイルはありません</string>
+    <string name="select_color_theme">カラーテーマを選択します。</string>
+    <string name="select_game_mode">ゲームモードを選択します。</string>
+    <string name="edit_replay_game">編集/再プレイゲーム</string>
+    <string name="analysis_mode">解析モード</string>
+    <string name="play_white">ホワイトプレイ</string>
+    <string name="play_black">ブラックを再生</string>
+    <string name="two_players">二人の選手</string>
+    <string name="comp_vs_comp">コンピュータ対コンピュータ</string>
+    <string name="analysis">分析</string>
+    <string name="edit_game">ゲームを編集します。</string>
+    <string name="edit_headers">ヘッダーを編集</string>
+    <string name="edit_comments">コメントの編集</string>
+    <string name="go_back">戻る</string>
+    <string name="go_forward">前進する</string>
+    <string name="goto_start_game">ゲームの後藤スタート</string>
+    <string name="goto_start_variation">バリエーションの後藤スタート</string>
+    <string name="goto_prev_variation">後藤前のバリエーション</string>
+    <string name="load_prev_game">前のゲームをロードします。</string>
+    <string name="goto_end_variation">変動の後藤終了</string>
+    <string name="goto_next_variation">後藤次バリエーション</string>
+    <string name="load_next_game">次のゲームをロードします。</string>
+    <string name="no_prev_game">以前のゲームしない</string>
+    <string name="no_next_game">いいえ次の試合ません</string>
+    <string name="select_action">操作を選択</string>
+    <string name="flip_board">フリップボード</string>
+    <string name="toggle_show_thinking">ショー思考を切り替える</string>
+    <string name="toggle_book_hints">トグルブックのヒント</string>
+    <string name="toggle_pgn_variations">トグルバリエーション</string>
+    <string name="toggle_pgn_comments">コメントの切り替え</string>
+    <string name="toggle_pgn_headers">トグルヘッダ</string>
+    <string name="toggle_analysis">トグルエンジン解析</string>
+    <string name="toggle_large_buttons">大きなボタンを切り替える</string>
+    <string name="cancel">取消し(C)</string>
+    <string name="yes">はい</string>
+    <string name="no">なし</string>
+    <string name="move_number">番号を移動します。</string>
+    <string name="filename">ファイル名(F):</string>
+    <string name="halfmove">Halfmoveクロック：</string>
+    <string name="fullmove">Fullmoveカウンタ：</string>
+    <string name="filter_text">検索...</string>
+    <string name="value_percent">値（％）：</string>
+    <string name="header_event">イベント</string>
+    <string name="header_site">サイト</string>
+    <string name="header_date">日付:</string>
+    <string name="header_round">四捨五入</string>
+    <string name="header_white">白</string>
+    <string name="header_black">黒</string>
+    <string name="comment_before">前：</string>
+    <string name="comment_move">移動</string>
+    <string name="comment_after">後：</string>
+    <string name="whites_move">白の動き</string>
+    <string name="blacks_move">黒の動き</string>
+    <string name="ponder">熟考する</string>
+    <string name="thinking">Thinking…</string>
+    <string name="analyzing">分析中…</string>
+    <string name="white_mate">白の仲間、ゲームオーバー！</string>
+    <string name="black_mate">黒メイト、ゲームオーバー！</string>
+    <string name="stalemate">ゲームオーバーは、膠着状態で描く！</string>
+    <string name="draw_rep">ゲームオーバーは、繰り返しで描く！</string>
+    <string name="draw_50">ゲームオーバーは、50の移動規則で描く！</string>
+    <string name="draw_no_mate">ゲームオーバーは、チームメイトの不可能で描く！</string>
+    <string name="draw_agree">ゲームオーバーは、契約で描く！</string>
+    <string name="resign_white">白辞任、ゲームオーバー！</string>
+    <string name="resign_black">黒辞任、ゲームオーバー！</string>
+    <string name="book">本</string>
+    <string name="invalid_move">無効な動き</string>
+    <string name="preferences">設定</string>
+    <string name="load_game_title">ファイル/ロードゲームを編集します。</string>
+    <string name="save_game_title">ファイルを編集する/ゲームを保存する</string>
+    <string name="save_game_hint">ゲームを保存する場所を制御するために既存のゲームを選択します。長い間それを削除するには、既存のゲームを押してください。</string>
+    <string name="load_scid_game_title">Scidのゲームをロードします。</string>
+    <string name="cpu_warning_title">CPUの警告</string>
+    <string name="failed_to_read_pgn_data">PGNのデータの読み取りに失敗しました</string>
+    <string name="variation">バール</string>
+    <string name="add_analysis">分析を追加します。</string>
+    <string name="fewer_variations">少ない変奏曲</string>
+    <string name="more_variations">より多くのバリエーション</string>
+    <string name="hide_statistics">統計を隠す</string>
+    <string name="show_statistics">統計を表示</string>
+    <string name="heavy_cpu_usage">重いCPUの使用率</string>
+    <string name="background_processing">バックグラウンド処理</string>
+    <string name="lot_cpu_power">チェスは、CPUパワーを大量に使用されている</string>
+    <string name="delete_game">ゲームを削除しますか？</string>
+    <string name="delete_file">削除</string>
+    <string name="delete_file_question">削除</string>
+    <string name="delete_named_file">ファイルを削除%s ？</string>
+    <string name="game_saved">ゲームが保存されました</string>
+    <string name="failed_to_save_game">ゲームの保存に失敗しました</string>
+    <string name="failed_to_delete_game">ゲームの削除に失敗しました</string>
+    <string name="file_too_large">ファイルが大きすぎます</string>
+    <string name="not_a_pgn_file">ないPGNファイル</string>
+    <string name="save_game_question">ゲームを保存しますか？</string>
+    <string name="before_selected">選択する前に</string>
+    <string name="after_selected">選択した後、</string>
+    <string name="replace_selected">選択した交換する</string>
+    <string name="engine">エンジン</string>
+    <string name="engine_error">エンジンエラー</string>
+    <string name="stockfish_engine">ハードエンジン</string>
+    <string name="cuckoochess_engine">簡単なエンジン</string>
+    <string name="failed_to_start_engine">エンジンの起動に失敗しました。</string>
+    <string name="engine_terminated">エンジン終了</string>
+    <string name="uci_protocol_error">UCIプロトコルエラー</string>
+    <string name="start_new_game">新しいゲームを開始しますか？</string>
+    <string name="strength_cuckoo_hint">さらに低い強度のEasyChessエンジンを使用しています。</string>
+    <string name="err_too_few_spaces">少なすぎるスペース</string>
+    <string name="err_invalid_piece">無効ピース</string>
+    <string name="err_invalid_side">無効な側</string>
+    <string name="err_invalid_castling_flags">無効なキャスフラグ</string>
+    <string name="err_invalid_en_passant_square">無効ついでに広場</string>
+    <string name="err_white_num_kings">白は、厳密に1つの王を持っている必要があります</string>
+    <string name="err_black_num_kings">黒は正確に1つの王を持っている必要があります</string>
+    <string name="err_king_capture_possible">キングが可能でキャプチャ</string>
+    <string name="err_too_many_rows">あまりにも多くの行</string>
+    <string name="err_too_many_columns">あまりにも多くの列</string>
+    <string name="err_pawn_on_first_last_rank">最初/最後のランクに関するポーン</string>
+    <string name="err_too_many_white_pieces">あまりにも多くの白い部分</string>
+    <string name="err_too_many_black_pieces">あまりにも多くの黒の駒</string>
+    <string name="option_new_game">新しいゲーム</string>
+    <string name="option_file">ファイル</string>
+    <string name="option_resign_game">ゲームを辞任</string>
+    <string name="option_edit_board">編集委員会</string>
+    <string name="option_settings">設定</string>
+    <string name="option_goto_move">後藤移動</string>
+    <string name="option_force_computer_move">フォース·コンピュータの移動</string>
+    <string name="option_draw">提供/要求/ドローを受け入れる</string>
+    <string name="option_select_book">オープニングブックを選択します。</string>
+    <string name="option_select_engine">チェスエンジンを選択する</string>
+    <string name="option_color_theme">カラーテーマを設定します。</string>
+    <string name="option_about">約/ヘルプ</string>
+    <string name="prefs_playing_options">再生オプション</string>
+    <string name="prefs_playerName_title">プレイヤー名</string>
+    <string name="prefs_playerName_summary">新しいゲームのデフォルトプレイヤー名</string>
+    <string name="prefs_autoSwapSides_title">フリップボード：オート</string>
+    <string name="prefs_autoSwapSides_summary">自動的にボードを反転させるために移動する側を使用して、</string>
+    <string name="prefs_playerNameFlip_title">フリップボード：プレイヤー</string>
+    <string name="prefs_playerNameFlip_summary">自動的にボードを反転するプレイヤー名を使用する</string>
+    <string name="prefs_engine_settings">エンジンの設定</string>
+    <string name="prefs_strength_title">強さ</string>
+    <string name="prefs_strength_summary">内部エンジンでのみサポート</string>
+    <string name="prefs_ponderMode_title">熟考</string>
+    <string name="prefs_ponderMode_summary">相手の動きを待っている間にエンジンが考えてみましょう。ほとんどのエンジンでサポートされています。</string>
+    <string name="prefs_threads_title">スレッド</string>
+    <string name="prefs_threads_summary">エンジンのスレッド数（CPUコア）を使用する。すべてのエンジンでサポートされていません。</string>
+    <string name="prefs_time_control">タイム·コントロール</string>
+    <string name="prefs_movesPerSession_title">移動</string>
+    <string name="prefs_movesPerSession_summary">時間のコントロール間の移動の数</string>
+    <string name="prefs_timeControl_title">タイムリー。</string>
+    <string name="prefs_timeControl_summary">時間のコントロール間の最大の思考時間</string>
+    <string name="prefs_timeIncrement_title">増分</string>
+    <string name="prefs_timeIncrement_summary">完了した各移動のための余分な思考時間</string>
+    <string name="prefs_hints"> ヒント</string>
+    <string name="prefs_showThinking_title">コンピュータの思考を表示する</string>
+    <string name="prefs_showThinking_summary">検索中にコンピュータアルゴリズム情報を表示する</string>
+    <string name="prefs_whiteBasedScores_title">ホワイトベースのスコア</string>
+    <string name="prefs_whiteBasedScores_summary">実証分析のスコアは白色に適しています</string>
+    <string name="prefs_bookHints_title">ブックのヒントを表示する</string>
+    <string name="prefs_bookHints_summary">人間のプレーヤーのための開いた本の動きのヒントを表示する</string>
+    <string name="prefs_thinkingArrows_title">矢印を使用して</string>
+    <string name="prefs_thinkingArrows_summary">チェスボード上の動きを表示するには、矢印を使用して</string>
+    <string name="prefs_user_interface">ユーザーインタフェース</string>
+    <string name="prefs_animateMoves_title">移動をアニメーション化</string>
+    <string name="prefs_animateMoves_summary">ピースの動きをアニメーション化</string>
+    <string name="prefs_oneTouchMoves_title">ワンタッチ移動</string>
+    <string name="prefs_oneTouchMoves_summary">つのユニークな動きに対応して正方形に触れると、すぐにその動きを作る</string>
+    <string name="prefs_soundEnabled_title">サウンドを有効にする</string>
+    <string name="prefs_soundEnabled_summary">コンピュータは、移動を行うときにサウンドを再生する</string>
+    <string name="prefs_vibrateEnabled_title">振動を有効にする</string>
+    <string name="prefs_vibrateEnabled_summary">コンピュータは、移動を行うときに振動</string>
+    <string name="prefs_fullScreenMode_title">フルスクリーンモード</string>
+    <string name="prefs_fullScreenMode_summary">フルスクリーンモードは、ステータスバーを隠す</string>
+    <string name="prefs_wakeLock_title">画面のタイムアウトを無効にします。</string>
+    <string name="prefs_drawSquareLabels_title">正方形のラベル</string>
+    <string name="prefs_drawSquareLabels_summary">-hと1-8：正方形のラベルを表示する</string>
+    <string name="prefs_scrollSensitivity_title">スクロール速度</string>
+    <string name="prefs_scrollSensitivity_summary">ゲームのナビゲーションのスクロール速度</string>
+    <string name="prefs_invertScrollDirection_title">スクロール方向を反転させる</string>
+    <string name="prefs_invertScrollDirection_summary">あなたは間違った方向のスクロールの動きを考える場合は、このオプションを有効にする</string>
+    <string name="prefs_leftHanded_title">左利きモード</string>
+    <string name="prefs_leftHanded_summary">ランドスケープモードの左側のコントロール</string>
+    <string name="prefs_fontSize_title">文字サイズ</string>
+    <string name="prefs_fontSize_summary">移動リストとゲーム情報のフォントサイズ</string>
+    <string name="prefs_largeButtons_title">大きなボタン</string>
+    <string name="prefs_largeButtons_summary">ゲームのナビゲーションおよびモードを設定するための大きなボタンを使用して、</string>
+    <string name="prefs_buttonSettings_title">ボタンを設定する</string>
+    <string name="prefs_buttonSettings_summary">ボタンのサイズやボタンのアクションを設定します。</string>
+    <string name="prefs_button_action_0_title">主なアクション</string>
+    <string name="prefs_button_action_1_title">メニューのアクション1</string>
+    <string name="prefs_button_action_2_title">メニューのアクション2</string>
+    <string name="prefs_button_action_3_title">メニュー·アクション3</string>
+    <string name="prefs_button_action_4_title">メニューアクション4</string>
+    <string name="prefs_button_action_5_title">メニューのアクション5</string>
+    <string name="prefs_button_action_6_title">メニューのアクション6</string>
+    <string name="prefs_custom_button_1">カスタムボタン1</string>
+    <string name="prefs_custom_button_2">カスタムボタン2</string>
+    <string name="prefs_custom_button_3">カスタムボタン3</string>
+    <string name="prefs_colors_title">色の設定</string>
+    <string name="prefs_colors_summary">個々の色を変更する</string>
+    <string name="prefs_chess_board">チェスボード</string>
+    <string name="prefs_color_brightSquare_title">明るい正方形</string>
+    <string name="prefs_color_darkSquare_title">暗い正方形</string>
+    <string name="prefs_color_selectedSquare_title">選択された広場</string>
+    <string name="prefs_color_cursorSquare_title">トラックボールカーソル</string>
+    <string name="prefs_color_brightPiece_title">白の小品</string>
+    <string name="prefs_color_darkPiece_title">黒の駒</string>
+    <string name="prefs_color_arrow0_title">矢印1</string>
+    <string name="prefs_color_arrow1_title">矢印2</string>
+    <string name="prefs_color_arrow2_title">矢印3</string>
+    <string name="prefs_color_arrow3_title">矢印4</string>
+    <string name="prefs_color_arrow4_title">矢印5</string>
+    <string name="prefs_color_arrow5_title">矢印6</string>
+    <string name="prefs_color_squareLabel_title">正方形のラベル</string>
+    <string name="prefs_color_decoration_title">Tablebaseヒント</string>
+    <string name="prefs_move_list">リストを移動する</string>
+    <string name="prefs_color_currentMove_title">現在の移動</string>
+    <string name="prefs_color_pgnComment_title">コメント</string>
+    <string name="prefs_other">その他</string>
+    <string name="prefs_bookSettings_title">予約の設定を開く</string>
+    <string name="prefs_bookSettings_summary">オープニングブックの使用の設定</string>
+    <string name="prefs_bookMaxLength_title">本の長さ</string>
+    <string name="prefs_bookMaxLength_summary">最大の本のラインの長さ</string>
+    <string name="prefs_bookPreferMainLines_title">メインラインを好む</string>
+    <string name="prefs_bookPreferMainLines_summary">主な動きとしてマークされた本の動きを好む</string>
+    <string name="prefs_bookTournamentMode_title">トーナメントモード</string>
+    <string name="prefs_bookTournamentMode_summary">トーナメントのためにしないとしてマークされた動きを無視する</string>
+    <string name="prefs_bookRandom_title">本ランダム化</string>
+    <string name="prefs_bookFile_title">本ファイル名</string>
+    <string name="prefs_bookFile_summary">ポリグロットまたはSDカード上のチェスディレクトリ内のCTGブックファイル</string>
+    <string name="prefs_pgnSettings_title">PGNの設定</string>
+    <string name="prefs_pgnSettings_summary">携帯型ゲーム機の表記（PGN）のデータのインポートとエクスポートの設定</string>
+    <string name="prefs_pgn_viewer">PGNビューア</string>
+    <string name="prefs_viewVariations_title">バリエーション</string>
+    <string name="prefs_viewVariations_summary">非主流の動きを含む</string>
+    <string name="prefs_viewComments_title">コメント</string>
+    <string name="prefs_viewComments_summary">ユーザの記述したコメントを含める</string>
+    <string name="prefs_viewNAG_title">注釈(N)</string>
+    <string name="prefs_viewNAG_summary">などの数値の注釈グリフを（NAGS）、含まれています！と？</string>
+    <string name="prefs_viewHeaders_title">ヘッダー</string>
+    <string name="prefs_viewHeaders_summary">PGNヘッダ行を表示する</string>
+    <string name="prefs_pgn_import">PGNインポート</string>
+    <string name="prefs_importVariations_title">バリエーション</string>
+    <string name="prefs_importVariations_summary">非主流の動きを含む</string>
+    <string name="prefs_importComments_title">コメント</string>
+    <string name="prefs_importComments_summary">ユーザの記述したコメントを含める</string>
+    <string name="prefs_importNAG_title">注釈(N)</string>
+    <string name="prefs_importNAG_summary">などの数値の注釈グリフを（NAGS）、含まれています！と？</string>
+    <string name="prefs_pgn_export">PGN輸出</string>
+    <string name="prefs_exportVariations_title">バリエーション</string>
+    <string name="prefs_exportVariations_summary">非主流の動きを含む</string>
+    <string name="prefs_exportComments_title">コメント</string>
+    <string name="prefs_exportComments_summary">ユーザの記述したコメントを含める</string>
+    <string name="prefs_exportNAG_title">注釈(N)</string>
+    <string name="prefs_exportNAG_summary">などの数値の注釈グリフを（NAGS）、含まれています！と？</string>
+    <string name="prefs_exportPlayerAction_title">プレイヤーの行動</string>
+    <string name="prefs_exportPlayerAction_summary">描画に関する情報が含まれ、アクションを辞任</string>
+    <string name="prefs_exportTime_title">Clock</string>
+    <string name="prefs_exportTime_summary">それぞれの移動のための時刻情報を含める</string>
+    <string name="prefs_egtbSettings_title">大詰めのTablebases</string>
+    <string name="prefs_tbHints_title">ヒントを表示する</string>
+    <string name="prefs_tbHints_summary">作品に触れるときは、その部分ですべての可能な動きのためにtablebase値を示し</string>
+    <string name="prefs_tbHintsEdit_title">ボード·ヒントを編集します。</string>
+    <string name="prefs_tbHintsEdit_summary">編集ボードモードでの作品を取り扱ったり触れるときは、その部分のすべての可能な代替の位置についてtablebase値を示し</string>
+    <string name="prefs_tbRootProbe_title">ルートでプローブ</string>
+    <string name="prefs_tbRootProbe_summary">検索を開始する前に、最適でない動きを除外</string>
+    <string name="prefs_tbEngineProbe_title">プロービングエンジン</string>
+    <string name="prefs_tbEngineProbe_summary">サポートされている場合tablebaseは、エンジンでプロービングを有効にします。効果次回エンジンが始動されるかかる</string>
+    <string name="prefs_gtbPath_title">GTBディレクトリ</string>
+    <string name="prefs_gtbPath_summary">Gaviotaのtablebasesがインストールされるディレクトリです。デフォルトのディレクトリを使用して空白のままに</string>
+    <string name="buttonDesc_custom1">@string/prefs_custom_button_1</string>
+    <string name="buttonDesc_custom2">@string/prefs_custom_button_2</string>
+    <string name="buttonDesc_custom3">@string/prefs_custom_button_3</string>
+    <string name="buttonDesc_mode">モードボタン</string>
+    <string name="buttonDesc_back">後方ボタン</string>
+    <string name="buttonDesc_forward">早送りボタン</string>
+    <string-array name="engine_threads_texts">
+        <item>自動</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="engine_threads_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="moves_per_session_texts">
+        <item>全体のゲーム</item>
+        <item>1動き</item>
+        <item>10の動き</item>
+        <item>20の動き</item>
+        <item>30の動き</item>
+        <item>40の動き</item>
+        <item>50の動き</item>
+        <item>60の動き</item>
+    </string-array>
+    <string-array name="moves_per_session_values">
+        <item>0</item>
+        <item>1</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="time_control_texts">
+        <item>15 秒間</item>
+        <item>30 秒間</item>
+        <item>1分</item>
+        <item>2分</item>
+        <item>3分</item>
+        <item>5分</item>
+        <item>10分</item>
+        <item>15分</item>
+        <item>30分</item>
+        <item>45分</item>
+        <item>60分</item>
+        <item>90分</item>
+        <item>120分</item>
+    </string-array>
+    <string-array name="time_control_values">
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>180000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>1800000</item>
+        <item>2700000</item>
+        <item>3600000</item>
+        <item>5400000</item>
+        <item>7200000</item>
+    </string-array>
+    <string-array name="time_increment_texts">
+        <item>0</item>
+        <item>1S</item>
+        <item>2S</item>
+        <item>3S</item>
+        <item>4S</item>
+        <item>5S</item>
+        <item>10S</item>
+        <item>12S</item>
+        <item>15S</item>
+        <item>30S</item>
+        <item>60S</item>
+    </string-array>
+    <string-array name="time_increment_values">
+        <item>0</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>12000</item>
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+    </string-array>
+    <string-array name="font_size_texts">
+        <item>小</item>
+        <item>通常</item>
+        <item>大</item>
+        <item>大</item>
+    </string-array>
+    <string-array name="font_size_values">
+        <item>10</item>
+        <item>12</item>
+        <item>16</item>
+        <item>21
+</item>
+    </string-array>
+    <string-array name="thinking_arrows_texts">
+        <item>いいえ、矢印なし</item>
+        <item>最大1矢印</item>
+        <item>最大2矢印</item>
+        <item>最大3矢印</item>
+        <item>最大4つの矢印</item>
+        <item>最大5矢印</item>
+        <item>最大6の矢印</item>
+    </string-array>
+    <string-array name="thinking_arrows_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="scroll_sensitivity_texts">
+        <item>OFF</item>
+        <item>遅い</item>
+        <item>遅い</item>
+        <item>普通</item>
+        <item>速い</item>
+        <item>最速</item>
+    </string-array>
+    <string-array name="scroll_sensitivity_values">
+        <item>0</item>
+        <item>6</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0.5</item>
+    </string-array>
+    <string-array name="book_line_length_texts">
+        <item>5移動</item>
+        <item>10の動き</item>
+        <item>15の動き</item>
+        <item>20の動き</item>
+        <item>30の動き</item>
+        <item>50手</item>
+        <item>無制限</item>
+    </string-array>
+        <string-array name="book_line_length_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>50</item>
+        <item>1000000</item>
+    </string-array>
+    <string-array name="button_action_texts">
+        <item>無効</item>
+        <item>@string/flip_board</item>
+        <item>@string/toggle_analysis</item>
+        <item>@string/toggle_show_thinking</item>
+        <item>@string/toggle_book_hints</item>
+        <item>@string/toggle_pgn_variations</item>
+        <item>@string/toggle_pgn_comments</item>
+        <item>@string/toggle_pgn_headers</item>
+        <item>@string/toggle_large_buttons</item>
+    </string-array>
+    <string-array name="button_action_values">
+        <item/>
+        <item>flipboard</item>
+        <item>toggleAnalysis</item>
+        <item>showThinking</item>
+        <item>bookHints</item>
+        <item>viewVariations</item>
+        <item>viewComments</item>
+        <item>viewHeaders</item>
+        <item>largeButtons</item>
+    </string-array>
+    <string name="titleDonate">寄付する</string>
+</resources>
